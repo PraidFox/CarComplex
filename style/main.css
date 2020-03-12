@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: #232a33;
+    color: white;
+    text-align: center;
+    height: 9.6vh;
+    font-family: PS;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navigation__list {
+    max-width: 1280px;
+    margin: auto;
+    margin: 18px auto;
+    padding-left: 0px;
+}
+
+.navigation li {
+    display: inline-block;
+    font-family: mp;
+    font-weight: bold;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #ff5436;
+    padding: 20px 16px;
+}
+.navigation li a:hover {
+    color: white;
+    background: #ff5436;
+    box-shadow: 4px 3px 6px 1px #0000007d;
+}
+
+
+
+.imgCar{
+    height: 60vh;
+    background-image: url("../img/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.popUp{
+    background: #5fa5c2cf;
+    width: 20%;
+    position: relative;
+    top: 30%;
+    right: -70%;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 4px 3px 6px 1px #000000db;
+}
+
+.achievements {
+    background: #232a33;
+}
+
+.achievements__substrate{
+    position: relative;
+    bottom: 50px;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievements__cards{
+    width: 240px;
+    text-align: center;
+    background: white;
+    box-shadow: 4px 3px 6px 1px #000000db;
+}
+
+.icon{
+    padding: 15px 0px;
+    width: 80px;
+}
+
+@font-face{
+    font-family: "PS";
+    src: url("../fonts/2223.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "mp";
+    src: url("../fonts/MyriadPro-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
